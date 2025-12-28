@@ -1,0 +1,16 @@
+{
+  "name": "statsecure-email-webhook",
+  "version": "1.0.0",
+  "description": "Webhook pour l'envoi d'emails StatSecure Academy via Resend",
+  "main": "api/send-email.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  },
+  "dependencies": {
+    "resend": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vercel/node": "^3.0.0"
+  }
+}
